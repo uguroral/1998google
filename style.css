@@ -1,10 +1,15 @@
-*{margin:0;
-padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* logo */
 .googlelogo {
     display: flex;
     justify-content: center;
 }
 
+/* search */
 .searcarea {
 
     width: 90%;
@@ -25,6 +30,7 @@ padding: 0;}
     margin: auto;
 }
 
+
 .flex-parent {
     display: flex;
     min-height: 0px;
@@ -33,6 +39,11 @@ padding: 0;}
 .jc-center {
     justify-content: center;
 }
+
+/* search end */
+
+
+/* yesil alan  */
 
 .greenbox {
     display: flex;
@@ -45,73 +56,82 @@ padding: 0;}
 
 .greenbox1 {
     width: 33%;
-    background: rgba(126,229,218,255);
+    background: rgba(126, 229, 218, 255);
     justify-content: center;
     padding-top: 10px;
 
 }
-.greenbox1 p{
+
+.greenbox1 p {
     display: flex;
     justify-content: center;
 }
-.greenbox1 a{
+
+.greenbox1 a {
     display: flex;
     justify-content: center;
 }
 
 .greenbox2 {
     width: 17%;
-    background: rgba(112,204,194,255);
+    background: rgba(112, 204, 194, 255);
     margin-left: 2px;
-    
+
 
 }
-.greenbox2 p{
+
+.greenbox2 p {
     display: flex;
     justify-content: center;
 }
-.greenbox2 a{
+
+.greenbox2 a {
     display: flex;
     justify-content: center;
-    
-    
-    
+
+
+
 }
-.greenbox2 li{
-    list-style-type:none;
+
+.greenbox2 li {
+    list-style-type: none;
 }
 
 .greenbox3 {
     width: 40%;
-    background: rgba(98,179,170,255);
+    background: rgba(98, 179, 170, 255);
     margin-left: 2px;
-    
+
 
 }
 
-.greenbox3 p{
+.greenbox3 p {
     display: flex;
     justify-content: center;
 }
-.greenbox3 a{
+
+.greenbox3 a {
     display: flex;
     justify-content: center;
-    
-    
-}
-.greenbox3 li{
-    list-style-type:none;
-}
-
-#inputmail{
-        width: 180px;
-        display: flex;
-        margin: auto;
-    
-}
 
 
-.archives{
+}
+
+.greenbox3 li {
+    list-style-type: none;
+}
+
+#inputmail {
+    width: 180px;
+    display: flex;
+    margin: auto;
+
+}
+
+
+.archives {
     font-size: 13px;
     padding-top: 5px;
 }
+
+/* yesil alan end */
